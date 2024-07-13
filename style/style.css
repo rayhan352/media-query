@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+h1:hover{
+    color: bisque;
+    text-align: center;
+    background-color: rgb(69, 66, 53);
+    box-shadow: 6px 6px 15px black;
+    transition: 0.5s;
+
+}
+
+.food {
+    border: 1px solid rgb(158, 220, 165);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(225, 231, 192);
+}
+
+.food:hover{
+    background-color: rgb(54, 61, 41);
+    color: bisque;
+    box-shadow: 6px 6px 15px black;
+    transition: 0.5s;
+}
+
+.container {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+}
