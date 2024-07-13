@@ -12,6 +12,11 @@ h1:hover{
     transition: 0.5s;
 
 }
+/* 
+button{
+    background-color: black;
+    color: blanchedalmond;
+} */
 
 .food {
     border: 1px solid rgb(158, 220, 165);
@@ -33,3 +38,24 @@ h1:hover{
      grid-template-columns: repeat(3,1fr);
      gap: 20px;
 }
+/* s,aller device */
+@media screen and (max-width:576px) {
+    .comtainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .food{
+        background-color: rgb(140, 162, 103);
+    }
+}
+
+/* medium device */
+
+/* @media screen and (min-width:577px) and (max-width:992px){
+    .container{
+        grid-template-columns: repeat(2,qfr);
+    }
+    .food{
+        background-color: khaki;
+    }
+} */
+
